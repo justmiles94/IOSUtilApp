@@ -15,6 +15,7 @@
 		D017E12C201B03B900E1EF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D017E12A201B03B900E1EF35 /* LaunchScreen.storyboard */; };
 		D017E137201B03BD00E1EF35 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017E136201B03BD00E1EF35 /* FoodTrackerTests.swift */; };
 		D017E142201B03BD00E1EF35 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017E141201B03BD00E1EF35 /* FoodTrackerUITests.swift */; };
+		D053A4AB2061CB9500534E72 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053A4AA2061CB9400534E72 /* RatingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D017E13D201B03BD00E1EF35 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D017E141201B03BD00E1EF35 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		D017E143201B03BD00E1EF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D053A4AA2061CB9400534E72 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D017E128201B03B900E1EF35 /* Assets.xcassets */,
 				D017E12A201B03B900E1EF35 /* LaunchScreen.storyboard */,
 				D017E12D201B03B900E1EF35 /* Info.plist */,
+				D053A4AA2061CB9400534E72 /* RatingController.swift */,
 				D017E125201B03B900E1EF35 /* FoodTracker.xcdatamodeld */,
 			);
 			path = FoodTracker;
@@ -264,6 +267,7 @@
 			files = (
 				D017E121201B03B900E1EF35 /* ViewController.swift in Sources */,
 				D017E11F201B03B900E1EF35 /* AppDelegate.swift in Sources */,
+				D053A4AB2061CB9500534E72 /* RatingController.swift in Sources */,
 				D017E127201B03B900E1EF35 /* FoodTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
